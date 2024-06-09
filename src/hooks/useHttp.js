@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 
-// helper function dealing with sending requests
+// Lesson 278. Helper function dealing with sending requests
 async function sendHttpRequest(url, config) {
   const response = await fetch(url, config);
 

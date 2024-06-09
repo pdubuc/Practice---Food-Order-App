@@ -27,7 +27,7 @@ export default function Cart() {
     <Modal
       className="cart"
       open={userProgressCtx.progress === "cart"}
-      // if we're already on the checkout page, we don't want to close the cart, but do nothing:
+      // if we're already on the checkout page, we don't want to close the cart, so do nothing:
       onClose={userProgressCtx.progress === "cart" ? handleCloseCart : null}
     >
       <h2>Your Cart</h2>
